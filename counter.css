@@ -88,7 +88,7 @@ h1 {
   align-items: center;
   position: absolute;
   transform: translateY(40%);
-  width: 40%;
+  width: 45%;
   height: 1rem;
   padding: 1rem;
   border-radius: 20px;
@@ -96,7 +96,7 @@ h1 {
   cursor: pointer;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
   transition: 0.2s all ease-in-out;
-  left: 0.25rem;
+  left: -0.25rem;
   margin-left: 0.75rem;
 }
 #increment-btn {
@@ -109,7 +109,7 @@ h1 {
   align-items: center;
   position: absolute;
   transform: translateY(40%);
-  width: 40%;
+  width: 45%;
   height: 1rem;
   padding: 1rem;
   border-radius: 20px;
@@ -117,7 +117,7 @@ h1 {
   cursor: pointer;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
   transition: 0.2s all ease-in-out;
-  right: 0.25rem;
+  right: -0.25rem;
   margin-right: 0.75rem;
 }
 #save-btn {
@@ -130,7 +130,7 @@ h1 {
   align-items: center;
   position: absolute;
   transform: translateY(190%);
-  width: 92%; /* dependent on width between buttons or of buttons */
+  width: 95%; /* dependent on width between buttons or of buttons */
   height: 1rem;
   padding: 1rem;
   border-radius: 20px;
@@ -149,7 +149,7 @@ h1 {
   align-items: center;
   position: absolute;
   transform: translateY(320%);
-  width: 92%; /* dependent on width between buttons or of buttons */
+  width: 95%; /* dependent on width between buttons or of buttons */
   height: 1rem;
   padding: 1rem;
   border-radius: 20px;
@@ -200,6 +200,6 @@ h1 {
   }
   #save-btn,
   #reset-btn {
-    width: 95%;
+    width: 105%;
   }
 }
