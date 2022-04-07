@@ -196,10 +196,10 @@ h1 {
   #save-btn,
   #reset-btn {
     font-size: x-small;
-    margin: 0.05rem;
+    margin: 0.04rem;
   }
   #save-btn,
   #reset-btn {
-    width: 105%;
+    width: 108%;
   }
 }
