@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./counter.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>People Counter | Scrimba</title>
+  </head>
+  <body>
+    <div class="counter-body" data-aos="fade-down" data-aos-duration="500">
+      <div class="counter-align">
+        <div class="counter-description">
+          <h1>Drink Counter:</h1>
+        </div>
+        <div class="counter-amount">
+          <h1 class="count-number" id="count-el">0</h1>
+        </div>
+        <div class="button-box">
+          <button id="increment-btn" onclick="increment()">+1</button>
+          <button id="decrement-btn" onclick="decrement()">-1</button>
+          <button id="save-btn" onclick="save()">SAVE</button>
+          <button id="reset-btn" onclick="reset()">RESET</button>
+        </div>
+        <div class="saved-amount">
+          <h4><em>Previous Number:</em></h4>
+          <h4 class="save-number" id="save-el">0</h4>
+        </div>
+      </div>
+    </div>
+    <script src="./counter.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
